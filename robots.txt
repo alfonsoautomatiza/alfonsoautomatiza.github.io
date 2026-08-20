@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://alfonsoautomatiza.github.io/sitemap.xml
