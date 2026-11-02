@@ -1,0 +1,33 @@
+{
+  "project": "demoapp",
+  "channel": "stable",
+  "releases": [
+    {
+      "version": "1.0.0",
+      "type": "full",
+      "target": "win-x64",
+      "filename": "demoapp-1.0.0-win-x64-stable.zip",
+      "sha256": "2b6b72b95a6e26dcaf2c747e01baeddfed0b31718c5143d2d16c819bbfbd7d42",
+      "size": 274,
+      "notes": "",
+      "tag": "demoapp-v1.0.0",
+      "url": "https://github.com/alfonsoautomatiza/alfonsoautomatiza.github.io/releases/download/demoapp-v1.0.0/demoapp-1.0.0-win-x64-stable.zip"
+    },
+    {
+      "version": "1.0.1",
+      "type": "partial",
+      "target": "win-x64",
+      "filename": "demoapp-1.0.1-win-x64-stable-partial.zip",
+      "sha256": "c0486eba7c83cd8255c7762cc70c383bcfb8bb5ecb6a7da782ccf59be904ec5f",
+      "size": 644,
+      "notes": "",
+      "base_version": "1.0.0",
+      "operations_manifest": "operations.json",
+      "url": "files/demoapp-1.0.1-win-x64-stable-partial.zip"
+    }
+  ],
+  "latest": "1.0.1",
+  "generated_at": "2026-11-02T11:31:49+00:00",
+  "key_id": "demo-key",
+  "signature": "2KkS04+ajskIcyqq/HWtOFWiKZ3r1bzlY/XZ3qAHHlh+17MxpO+UbpGn6YMbyTMgwVOVVExlMkvcwVQbo3kcCg=="
+}
