@@ -1,0 +1,21 @@
+{
+  "project": "s50info",
+  "channel": "stable",
+  "releases": [
+    {
+      "version": "2.2.4",
+      "type": "full",
+      "target": "win-x64",
+      "filename": "s50info-2.2.4-win-x64-stable.zip",
+      "sha256": "89269624c45acc448a35640934dffd69ee7970a62eb2ae1d397d19d5948d82e4",
+      "size": 91964801,
+      "notes": "",
+      "tag": "s50info-v2.2.4",
+      "url": "https://github.com/alfonsoautomatiza/alfonsoautomatiza.github.io/releases/download/s50info-v2.2.4/s50info-2.2.4-win-x64-stable.zip"
+    }
+  ],
+  "latest": "2.2.4",
+  "generated_at": "2026-11-02T18:26:43+00:00",
+  "key_id": "global-2026-01",
+  "signature": "SY2Xu0DsagmP7dBGm7X1KikoKMNNG7I8Pg6Jrhn8oiRoGhTOupdo8UYFi9CvAboR21DcIkE0/dbYAkzlS/OuDg=="
+}
