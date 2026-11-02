@@ -1,0 +1,21 @@
+{
+  "project": "s50importa",
+  "channel": "stable",
+  "releases": [
+    {
+      "version": "0.1.2",
+      "type": "full",
+      "target": "win-x64",
+      "filename": "s50importa-0.1.2-win-x64-stable.zip",
+      "sha256": "9887fa4d5b5746d85b355f5f8cfa87f61f384d8d0dc3c9880c6538710147201c",
+      "size": 227901870,
+      "notes": "",
+      "tag": "s50importa-v0.1.2",
+      "url": "https://github.com/alfonsoautomatiza/alfonsoautomatiza.github.io/releases/download/s50importa-v0.1.2/s50importa-0.1.2-win-x64-stable.zip"
+    }
+  ],
+  "latest": "0.1.2",
+  "generated_at": "2026-11-02T18:25:32+00:00",
+  "key_id": "global-2026-01",
+  "signature": "g5LXj9mlw80gSzGxdvwU4wGMBtF6oEQatUiadPCVbBN04RWflXKIf1w3ScCWyoNlj//UNqKgFjR3joLvh8waBA=="
+}
