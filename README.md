@@ -3,10 +3,10 @@
 Alfonso Automatiza no está afiliado a Sage ni es distribuidor oficial. "Sage" y "Sage 50" son marcas registradas de The Sage Group plc.
 
 Página índice (hub) de los manuales técnicos de las herramientas de Alfonso Automatiza:
-
+SE
 - [S50Info](https://alfonsoautomatiza.github.io/S50info/)
-- [Sage 50 BI](https://alfonsoautomatiza.github.io/Sage50bi/)
-- [xls2sage50](https://alfonsoautomatiza.github.io/xls2sage50/)
+- [S50bi](https://alfonsoautomatiza.github.io/Sage50bi/)
+- [S50importa](https://alfonsoautomatiza.github.io/xls2sage50/)
 - [RecWERTY](https://alfonsoautomatiza.github.io/recwerty/)
 - [Backup Teamleader](https://alfonsoautomatiza.github.io/backup-crm-teamleader/)
 - [Centralita IA Teamleader](https://alfonsoautomatiza.github.io/Centralita_Teamleader/)
