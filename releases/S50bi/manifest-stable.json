@@ -70,10 +70,22 @@
       "base_version": "0.1.6",
       "operations_manifest": "operations.json",
       "url": "files/S50bi-0.1.8-win-x64-stable-partial.zip"
+    },
+    {
+      "version": "0.1.9",
+      "type": "partial",
+      "target": "win-x64",
+      "filename": "S50bi-0.1.9-win-x64-stable-partial.zip",
+      "sha256": "f43a80001a443caa153afcb4f834e36cb9c80cc233cdf398ccdba759f2d52822",
+      "size": 29625,
+      "notes": "",
+      "base_version": "0.1.6",
+      "operations_manifest": "operations.json",
+      "url": "files/S50bi-0.1.9-win-x64-stable-partial.zip"
     }
   ],
-  "latest": "0.1.8",
-  "generated_at": "2026-11-03T12:21:16+00:00",
+  "latest": "0.1.9",
+  "generated_at": "2026-11-03T16:41:21+00:00",
   "key_id": "global-2026-01",
-  "signature": "G4omAfCtkx38IovXVU+Yh/fbkp1QJvJy8UehKzaytHkPhI9EEVHeTzNCKgSaKt3+ijOLsNv1Fmw8YRc/fyjeDg=="
+  "signature": "ZMNN4bHyeLCrXP+DkaAfa+Hr7ET8OyahtzzsSY+gUKsM9gIL3hKGOYkTgAOb1gaz44ZdgT+5U68dXQ/e0ntyDg=="
 }
