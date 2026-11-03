@@ -23,10 +23,21 @@
       "notes": "",
       "tag": "updategit-v1.3.6",
       "url": "https://github.com/alfonsoautomatiza/alfonsoautomatiza.github.io/releases/download/updategit-v1.3.6/updategit-1.3.6-win-x64-stable.zip"
+    },
+    {
+      "version": "1.3.7",
+      "type": "full",
+      "target": "win-x64",
+      "filename": "updategit-1.3.7-win-x64-stable.zip",
+      "sha256": "b229bd60408c6c41f3684cd68207016e44f39179524fd08bb5082c56dee76c98",
+      "size": 3580253,
+      "notes": "",
+      "tag": "updategit-v1.3.7",
+      "url": "https://github.com/alfonsoautomatiza/alfonsoautomatiza.github.io/releases/download/updategit-v1.3.7/updategit-1.3.7-win-x64-stable.zip"
     }
   ],
-  "latest": "1.3.6",
-  "generated_at": "2026-11-03T18:07:36+00:00",
+  "latest": "1.3.7",
+  "generated_at": "2026-11-03T19:07:41+00:00",
   "key_id": "global-2026-01",
-  "signature": "R1hd7jJVmwBMcIrzaMGE5uKD2tMjlHIssOlYTQ/E+DYXl78he3+TIPFuumEvzfdmQQw6tTDssEEg2fpUwBDTBA=="
+  "signature": "MYXKFYbvFVnuv+8zMpQGsWth9AHcM4BSMKL9VXPCXbaXPiOxTfbrLFrKOU9JEIdTKOWJ7PYL1zQIHOr1T5eEAw=="
 }
