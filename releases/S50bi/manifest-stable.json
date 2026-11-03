@@ -35,10 +35,21 @@
       "base_version": "0.1.4",
       "operations_manifest": "operations.json",
       "url": "files/S50bi-0.1.5-win-x64-stable-partial.zip"
+    },
+    {
+      "version": "0.1.6",
+      "type": "full",
+      "target": "win-x64",
+      "filename": "S50bi-0.1.6-win-x64-stable.zip",
+      "sha256": "3d474339fabcf03c7fff4b0153917e87bb58fc5bf1f10ef3438c18cfb5de0741",
+      "size": 142464506,
+      "notes": "",
+      "tag": "S50bi-v0.1.6",
+      "url": "https://github.com/alfonsoautomatiza/alfonsoautomatiza.github.io/releases/download/S50bi-v0.1.6/S50bi-0.1.6-win-x64-stable.zip"
     }
   ],
-  "latest": "0.1.5",
-  "generated_at": "2026-11-03T07:45:53+00:00",
+  "latest": "0.1.6",
+  "generated_at": "2026-11-03T09:59:10+00:00",
   "key_id": "global-2026-01",
-  "signature": "doeYZOW9r8QBqjRKpZyAqA1YooeNcuTLQf8O1jzBOyiafHVqRNKddESdUhj7xy0cherEPWnlioFdgokyXMEeAg=="
+  "signature": "gzUdlUBs5vYgD3JYWbNYTVlr4tZ9+NQYsyQ4o2fq/fDaFcZETWyvAgqAlHGL3CzN+HozCy9dbIfioi6ekL+9Bw=="
 }
