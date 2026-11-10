@@ -1,0 +1,87 @@
+[
+  {
+    "id": "s50info",
+    "name": "S50info",
+    "group": "sage50",
+    "platform": "windows",
+    "description": "CLI para consultar, exportar y automatizar datos de Sage 50 desde la línea de comandos.",
+    "product_url": "https://alfonsoautomatiza.com/s50-info?utm_source=github&utm_medium=manuales_hub&utm_campaign=s50info",
+    "manual_url": "https://alfonsoautomatiza.github.io/S50info/",
+    "store_url": "https://apps.microsoft.com/detail/9n8p7xnx68x3",
+    "winget_id": "9N8P7XNX68X3",
+    "release": "s50info"
+  },
+  {
+    "id": "s50bi",
+    "name": "S50bi",
+    "group": "sage50",
+    "platform": "windows",
+    "description": "Cuadros de mando e informes listos para usar sobre los datos de Sage 50, sin programar consultas.",
+    "product_url": "https://alfonsoautomatiza.com/s50-bi?utm_source=github&utm_medium=manuales_hub&utm_campaign=sage50bi",
+    "manual_url": "https://alfonsoautomatiza.github.io/Sage50bi/",
+    "store_url": "https://apps.microsoft.com/detail/9n2r7nqkv7xh",
+    "winget_id": "9N2R7NQKV7XH",
+    "release": "S50bi"
+  },
+  {
+    "id": "s50importa",
+    "name": "S50importa",
+    "group": "sage50",
+    "platform": "windows",
+    "description": "Importa datos desde Excel a Sage 50 sin errores y sin programar, mediante API o ficheros CSV/SQL.",
+    "product_url": "https://alfonsoautomatiza.com/xls2sage50?utm_source=github&utm_medium=manuales_hub&utm_campaign=xls2sage50",
+    "manual_url": "https://alfonsoautomatiza.github.io/xls2sage50/",
+    "store_url": "https://apps.microsoft.com/detail/9nhw31zcpkqc",
+    "winget_id": "9NHW31ZCPKQC",
+    "release": "s50importa"
+  },
+  {
+    "id": "recwerty",
+    "name": "RecWERTY",
+    "group": "productividad",
+    "platform": "windows",
+    "description": "Graba y documenta tutoriales y demostraciones de pantalla en Windows, con atajos e índice de funciones.",
+    "product_url": "https://alfonsoautomatiza.com/recwerty?utm_source=github&utm_medium=manuales_hub&utm_campaign=recwerty",
+    "manual_url": "https://alfonsoautomatiza.github.io/recwerty/",
+    "store_url": "https://apps.microsoft.com/detail/9nld6gx4l1r1",
+    "winget_id": "9NLD6GX4L1R1",
+    "release": null
+  },
+  {
+    "id": "backup-teamleader",
+    "name": "Backup Teamleader",
+    "group": "productividad",
+    "platform": "windows",
+    "description": "Copia de seguridad de los datos de Teamleader CRM en Windows, de forma programada y automática.",
+    "product_url": "https://alfonsoautomatiza.com/backup-teamleader?utm_source=github&utm_medium=manuales_hub&utm_campaign=backup-teamleader",
+    "manual_url": "https://alfonsoautomatiza.github.io/backup-crm-teamleader/",
+    "store_url": "https://apps.microsoft.com/detail/9pcpjc5262sq",
+    "winget_id": "9PCPJC5262SQ",
+    "release": null
+  },
+  {
+    "id": "centralita-ia-teamleader",
+    "name": "Centralita IA Teamleader",
+    "group": "comunicaciones",
+    "platform": "windows",
+    "description": "Integra la centralita telefónica con Teamleader Focus CRM: grabación de llamadas y análisis con IA.",
+    "product_url": "https://alfonsoautomatiza.com/centralita-ia-teamleader?utm_source=github&utm_medium=manuales_hub&utm_campaign=centralita-ia-teamleader",
+    "manual_url": "https://alfonsoautomatiza.github.io/Centralita_Teamleader/",
+    "store_url": null,
+    "winget_id": null,
+    "release": null
+  },
+  {
+    "id": "centralita-android",
+    "name": "Centralita Android",
+    "group": "comunicaciones",
+    "platform": "android",
+    "description": "Identifica llamadas entrantes y salientes en Android con los datos del CRM.",
+    "product_url": "https://alfonsoautomatiza.com/centralita-ia-teamleader?utm_source=github&utm_medium=manuales_hub&utm_campaign=centralita-android",
+    "manual_url": null,
+    "store_url": null,
+    "winget_id": null,
+    "beta": true,
+    "release": null
+  }
+]
