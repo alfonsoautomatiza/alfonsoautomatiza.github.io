@@ -1,1 +1,11 @@
 .atl/
+.engram/
+.env
+
+# Public repo: no source code, only the site and published artifacts
+*.py
+*.ps1
+
+# APKs go to GitHub Releases; AABs are never public
+*.apk
+*.aab

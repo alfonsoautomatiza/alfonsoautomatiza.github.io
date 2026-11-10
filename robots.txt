@@ -1,4 +1,5 @@
 User-agent: *
 Allow: /
+Disallow: /releases/
 
 Sitemap: https://alfonsoautomatiza.github.io/sitemap.xml
