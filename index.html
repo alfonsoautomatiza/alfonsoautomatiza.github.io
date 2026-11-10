@@ -3,155 +3,158 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Manuales técnicos — Alfonso Automatiza</title>
-<meta name="description" content="Manuales técnicos de las herramientas de Alfonso Automatiza para Sage 50: S50Info, xls2sage50, RecWERTY y Sage 50 BI.">
+<title>Centro de descargas — AlfonsoAutomatiza</title>
+<meta name="description" content="La última versión publicada de cada herramienta de AlfonsoAutomatiza, con su manual de uso.">
 <link rel="canonical" href="https://alfonsoautomatiza.github.io/">
 <style>
-  :root{
-    --bg:#0f172a;
-    --card:#ffffff;
-    --text:#1e293b;
-    --muted:#64748b;
-    --accent:#2563eb;
-    --border:#e2e8f0;
-  }
-  *{box-sizing:border-box;}
-  body{
-    margin:0;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-    background:#f8fafc;
-    color:var(--text);
-    line-height:1.55;
-  }
-  header{
-    background:linear-gradient(135deg,#0f172a,#1e3a8a);
-    color:#fff;
-    padding:3rem 1.5rem 2.5rem;
-    text-align:center;
-  }
-  header h1{margin:0 0 .5rem;font-size:1.9rem;}
-  header p{margin:0 auto;max-width:620px;color:#cbd5e1;font-size:1rem;}
-  header a{color:#93c5fd;}
-  main{max-width:960px;margin:-1.5rem auto 0;padding:0 1.5rem 3rem;}
-  .grid{
-    display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
-    gap:1.25rem;
-    margin-top:1.5rem;
-  }
-  .card{
-    background:var(--card);
-    border:1px solid var(--border);
-    border-radius:12px;
-    padding:1.5rem;
-    box-shadow:0 1px 3px rgba(15,23,42,.06);
-    display:flex;
-    flex-direction:column;
-  }
-  .card h2{margin:0 0 .4rem;font-size:1.15rem;}
-  .card p{margin:0 0 1.1rem;color:var(--muted);font-size:.95rem;flex-grow:1;}
-  .card-links{display:flex;gap:.6rem;flex-wrap:wrap;}
-  .btn{
-    display:inline-block;
-    padding:.5rem .9rem;
-    border-radius:8px;
-    text-decoration:none;
-    font-size:.9rem;
-    font-weight:600;
-  }
-  .btn-primary{background:var(--accent);color:#fff;}
-  .btn-secondary{background:#eef2ff;color:#3730a3;}
-  section.intro{margin-top:2.5rem;}
-  section.intro h3{font-size:1.05rem;}
-  footer{
-    border-top:1px solid var(--border);
-    margin-top:3rem;
-    padding-top:1.5rem;
-    color:var(--muted);
-    font-size:.85rem;
-  }
-  footer a{color:var(--accent);text-decoration:none;}
-  footer a:hover{text-decoration:underline;}
+  :root{--bg:#f8fafc;--card:#fff;--text:#0f172a;--muted:#475569;--soft:#64748b;--accent:#2563eb;--accent-dark:#1d4ed8;--line:#e2e8f0;--chip:#f1f5f9}
+  *{box-sizing:border-box}
+  @media (prefers-reduced-motion: reduce){ *{transition:none !important} }
+  body{margin:0;background:var(--bg);color:var(--text);font:16px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
+  a{color:var(--accent)}
+  a:focus-visible,summary:focus-visible,button:focus-visible{outline:2px solid var(--accent-dark);outline-offset:2px;border-radius:6px}
+  header{background:linear-gradient(160deg,#0f172a,#1e3a8a);color:#fff;padding:3rem 1.5rem 4.5rem;text-align:center}
+  header .brand{color:#93c5fd;font-size:.8rem;text-transform:uppercase;letter-spacing:.1em;font-weight:700;margin:0}
+  header h1{margin:.2rem 0 0;font-size:1.7rem;letter-spacing:-.01em}
+  header p.sub{margin:.6rem auto 0;max-width:52ch;color:#cbd5e1;font-size:.98rem}
+  main{max-width:1060px;margin:-2.5rem auto 0;padding:0 1.5rem 3rem}
+  section{margin-bottom:2.75rem}
+  section h2{font-size:.95rem;color:var(--soft);text-transform:uppercase;letter-spacing:.07em;margin:0 0 1rem;font-weight:600}
+  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:1.1rem}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:1.4rem 1.4rem 1.2rem;display:flex;flex-direction:column;gap:.6rem}
+  .head{display:flex;gap:.85rem;align-items:center}
+  .icon{flex:0 0 auto;width:42px;height:42px;border-radius:10px;background:var(--chip)}
+  .icon img{width:42px;height:42px;border-radius:10px;display:block}
+  .head strong{font-size:1.05rem;display:block}
+  .chips{display:flex;gap:.4rem;margin-top:.15rem}
+  .chip{background:var(--chip);color:var(--muted);border-radius:999px;padding:.12rem .6rem;font-size:.7rem;font-weight:600}
+  .chip.beta{background:#fef3c7;color:#92400e}
+  .card > p{margin:0;color:var(--muted);font-size:.92rem;flex-grow:1}
+  .card > p.note{color:#92400e;font-size:.82rem;flex-grow:0}
+  .version{display:flex;justify-content:space-between;align-items:baseline;gap:.5rem;border-top:1px solid var(--line);padding-top:.75rem;font-size:.85rem;color:var(--muted)}
+  .version strong{color:var(--text);font-size:.95rem}
+  .btns{display:flex;gap:.6rem;flex-wrap:wrap}
+  .btn{display:inline-block;padding:.6rem 1.05rem;border-radius:9px;text-decoration:none;font-weight:600;font-size:.9rem;min-height:44px;line-height:1.35}
+  .btn-primary{background:var(--accent);color:#fff}
+  .btn-primary:hover{background:var(--accent-dark)}
+  .btn-sec{background:var(--chip);color:var(--accent-dark)}
+  .btn-sec:hover{background:#e2e8f0}
+  .availability{color:var(--soft);font-size:.9rem;margin:0}
+  details.files summary{cursor:pointer;color:var(--muted);font-size:.85rem;min-height:32px}
+  details.files .sha{display:flex;align-items:center;gap:.5rem;flex-wrap:wrap;margin-top:.4rem}
+  details.files code{flex:1 1 12rem;font-size:.72rem;color:var(--muted);background:var(--chip);border-radius:6px;padding:.35rem .55rem;word-break:break-all}
+  .install{display:flex;align-items:center;gap:.5rem;flex-wrap:wrap;border-top:1px dashed var(--line);padding-top:.7rem}
+  .install .store{font-size:.85rem;font-weight:600;color:var(--accent-dark);text-decoration:none;min-height:36px;display:inline-flex;align-items:center}
+  .install .store:hover{text-decoration:underline}
+  .install code{flex:1 1 12rem;font-size:.78rem;color:var(--muted);background:var(--chip);border-radius:6px;padding:.35rem .55rem;overflow-x:auto;white-space:nowrap}
+  .copy{border:1px solid var(--line);background:#fff;color:var(--accent-dark);border-radius:6px;padding:.4rem .75rem;font-size:.78rem;font-weight:600;cursor:pointer;min-height:36px}
+  .copy:hover{background:var(--chip)}
+  .copy.copied{color:#15803d;border-color:#bbf7d0}
+  footer{border-top:1px solid var(--line);margin-top:1rem;padding:1.5rem;color:var(--soft);font-size:.82rem}
+  .foot{max-width:1060px;margin:0 auto}
+  @media (max-width:480px){header{padding:2.2rem 1.2rem 3.6rem}.btns .btn{flex:1 1 auto;text-align:center}}
 </style>
 </head>
 <body>
-
 <header>
-  <h1>Manuales técnicos — Alfonso Automatiza</h1>
-  <p>Documentación de uso de las herramientas para Sage 50 desarrolladas por Alfonso Automatiza. Consulte el manual de cada herramienta o vuelva a <a href="https://alfonsoautomatiza.com/?utm_source=github&amp;utm_medium=manuales_hub&amp;utm_campaign=inicio">alfonsoautomatiza.com</a> para más información y contratación.</p>
+  <p class="brand">AlfonsoAutomatiza</p>
+  <h1>Centro de descargas</h1>
+  <p class="sub">La última versión publicada de cada herramienta, con su manual de uso. Los programas de Windows se actualizan solos.</p>
 </header>
-
 <main>
-
-  <div class="grid">
-
-    <div class="card">
-      <h2>S50Info</h2>
-      <p>CLI para consultar, exportar y automatizar datos de Sage 50 desde la línea de comandos: diagnóstico de conexión, exportación a TXT/CSV/JSON/XML/XLSX y scripts Python.</p>
-      <div class="card-links">
-        <a class="btn btn-primary" href="https://alfonsoautomatiza.github.io/S50info/">Ver manual</a>
-        <a class="btn btn-secondary" href="https://alfonsoautomatiza.com/s50-info?utm_source=github&amp;utm_medium=manuales_hub&amp;utm_campaign=s50info">Ver producto</a>
-      </div>
-    </div>
-
-    <div class="card">
-      <h2>Sage 50 BI</h2>
-      <p>Cuadros de mando e informes listos para usar sobre los datos de Sage 50, sin necesidad de programar consultas.</p>
-      <div class="card-links">
-        <a class="btn btn-primary" href="https://alfonsoautomatiza.github.io/Sage50bi/">Ver manual</a>
-        <a class="btn btn-secondary" href="https://alfonsoautomatiza.com/s50-bi?utm_source=github&amp;utm_medium=manuales_hub&amp;utm_campaign=sage50bi">Ver producto</a>
-      </div>
-    </div>
-
-    <div class="card">
-      <h2>xls2sage50</h2>
-      <p>Importa datos desde Excel a Sage 50 sin errores y sin programar, mediante API o generación de ficheros CSV/SQL.</p>
-      <div class="card-links">
-        <a class="btn btn-primary" href="https://alfonsoautomatiza.github.io/xls2sage50/">Ver manual</a>
-        <a class="btn btn-secondary" href="https://alfonsoautomatiza.com/xls2sage50?utm_source=github&amp;utm_medium=manuales_hub&amp;utm_campaign=xls2sage50">Ver producto</a>
-      </div>
-    </div>
-
-    <div class="card">
-      <h2>RecWERTY</h2>
-      <p>Graba y documenta tutoriales y demostraciones de pantalla en Windows, con atajos e índice de funciones.</p>
-      <div class="card-links">
-        <a class="btn btn-primary" href="https://alfonsoautomatiza.github.io/recwerty/">Ver manual</a>
-        <a class="btn btn-secondary" href="https://alfonsoautomatiza.com/recwerty?utm_source=github&amp;utm_medium=manuales_hub&amp;utm_campaign=recwerty">Ver producto</a>
-      </div>
-    </div>
-
-    <div class="card">
-      <h2>Backup Teamleader</h2>
-      <p>Copia de seguridad de los datos de Teamleader CRM en Windows, de forma programada y automática.</p>
-      <div class="card-links">
-        <a class="btn btn-primary" href="https://alfonsoautomatiza.github.io/backup-crm-teamleader/">Ver manual</a>
-        <a class="btn btn-secondary" href="https://alfonsoautomatiza.com/backup-teamleader?utm_source=github&amp;utm_medium=manuales_hub&amp;utm_campaign=backup-teamleader">Ver producto</a>
-      </div>
-    </div>
-
-    <div class="card">
-      <h2>Centralita IA Teamleader</h2>
-      <p>Integra la centralita telefónica con Teamleader Focus CRM: grabación de llamadas y análisis con IA.</p>
-      <div class="card-links">
-        <a class="btn btn-primary" href="https://alfonsoautomatiza.github.io/Centralita_Teamleader/">Ver manual</a>
-        <a class="btn btn-secondary" href="https://alfonsoautomatiza.com/centralita-ia-teamleader?utm_source=github&amp;utm_medium=manuales_hub&amp;utm_campaign=centralita-ia-teamleader">Ver producto</a>
-      </div>
-    </div>
-
-  </div>
-
-  <section class="intro">
-    <h3>¿Qué es Alfonso Automatiza?</h3>
-    <p>Herramientas para automatizar informes, integraciones y centralitas con IA para pymes que trabajan con Sage 50 y otros ERP/CRM. Más información y contacto en <a href="https://alfonsoautomatiza.com/?utm_source=github&amp;utm_medium=manuales_hub&amp;utm_campaign=inicio">alfonsoautomatiza.com</a>.</p>
-  </section>
-
-  <footer>
-    <p>Sage y Sage 50 son marcas registradas de The Sage Group plc. Alfonso Automatiza no está afiliado a Sage ni es distribuidor oficial; estas herramientas son desarrollos propios e independientes.</p>
-    <p>© 2026 Alfonso Martínez — Alfonso Automatiza · <a href="mailto:hola@alfonsoautomatiza.com">hola@alfonsoautomatiza.com</a></p>
-  </footer>
-
+<section aria-labelledby="h-sage50"><h2 id="h-sage50">Sage 50</h2><div class="grid">
+<article class="card">
+<div class="head"><span class="icon"><img src="img/icons/s50info.png" alt="" width="42" height="42" loading="lazy"></span><div><strong>S50info</strong><div class="chips"><span class="chip">Windows</span></div></div></div>
+<p>CLI para consultar, exportar y automatizar datos de Sage 50 desde la línea de comandos.</p>
+<div class="version"><strong>v2.2.4</strong><span>92 MB · 2 nov 2026</span></div>
+<div class="btns"><a class="btn btn-primary" href="https://github.com/alfonsoautomatiza/alfonsoautomatiza.github.io/releases/download/s50info-v2.2.4/s50info-2.2.4-win-x64-stable.zip">Descargar ZIP</a><a class="btn btn-sec" href="https://alfonsoautomatiza.com/s50-info">Ver producto</a><a class="btn btn-sec" href="https://alfonsoautomatiza.github.io/S50info/">Manual</a></div>
+<details class="files"><summary>Información del archivo</summary><div class="sha"><span>SHA-256</span><code id="sha-s50info">89269624c45acc448a35640934dffd69ee7970a62eb2ae1d397d19d5948d82e4</code><button type="button" class="copy" data-target="sha-s50info" aria-label="Copiar SHA-256 de S50info">Copiar</button></div></details>
+<div class="install"><a class="store" href="https://apps.microsoft.com/detail/9n8p7xnx68x3">Microsoft Store ↗</a><code id="wg-s50info">winget install --id 9N8P7XNX68X3 -s msstore</code><button type="button" class="copy" data-target="wg-s50info" aria-label="Copiar comando winget de S50info">Copiar</button></div>
+</article>
+<article class="card">
+<div class="head"><span class="icon"><img src="img/icons/s50bi.png" alt="" width="42" height="42" loading="lazy"></span><div><strong>S50bi</strong><div class="chips"><span class="chip">Windows</span></div></div></div>
+<p>Cuadros de mando e informes listos para usar sobre los datos de Sage 50, sin programar consultas.</p>
+<div class="version"><strong>v0.1.11</strong><span>142 MB · 3 nov 2026</span></div>
+<div class="btns"><a class="btn btn-primary" href="https://github.com/alfonsoautomatiza/alfonsoautomatiza.github.io/releases/download/S50bi-v0.1.11/S50bi-0.1.11-win-x64-stable.zip">Descargar ZIP</a><a class="btn btn-sec" href="https://alfonsoautomatiza.com/s50-bi">Ver producto</a><a class="btn btn-sec" href="https://alfonsoautomatiza.github.io/Sage50bi/">Manual</a></div>
+<details class="files"><summary>Información del archivo</summary><div class="sha"><span>SHA-256</span><code id="sha-s50bi">8050324cc777431fabeaad69875cfaeb134332f46c0de070ae7e1f070dcefd92</code><button type="button" class="copy" data-target="sha-s50bi" aria-label="Copiar SHA-256 de S50bi">Copiar</button></div></details>
+<div class="install"><a class="store" href="https://apps.microsoft.com/detail/9n2r7nqkv7xh">Microsoft Store ↗</a><code id="wg-s50bi">winget install --id 9N2R7NQKV7XH -s msstore</code><button type="button" class="copy" data-target="wg-s50bi" aria-label="Copiar comando winget de S50bi">Copiar</button></div>
+</article>
+<article class="card">
+<div class="head"><span class="icon"><img src="img/icons/s50importa.png" alt="" width="42" height="42" loading="lazy"></span><div><strong>S50importa</strong><div class="chips"><span class="chip">Windows</span></div></div></div>
+<p>Importa datos desde Excel a Sage 50 sin errores y sin programar, mediante API o ficheros CSV/SQL.</p>
+<div class="version"><strong>v0.1.2</strong><span>228 MB · 2 nov 2026</span></div>
+<div class="btns"><a class="btn btn-primary" href="https://github.com/alfonsoautomatiza/alfonsoautomatiza.github.io/releases/download/s50importa-v0.1.2/s50importa-0.1.2-win-x64-stable.zip">Descargar ZIP</a><a class="btn btn-sec" href="https://alfonsoautomatiza.com/xls2sage50">Ver producto</a><a class="btn btn-sec" href="https://alfonsoautomatiza.github.io/xls2sage50/">Manual</a></div>
+<details class="files"><summary>Información del archivo</summary><div class="sha"><span>SHA-256</span><code id="sha-s50importa">9887fa4d5b5746d85b355f5f8cfa87f61f384d8d0dc3c9880c6538710147201c</code><button type="button" class="copy" data-target="sha-s50importa" aria-label="Copiar SHA-256 de S50importa">Copiar</button></div></details>
+<div class="install"><a class="store" href="https://apps.microsoft.com/detail/9nhw31zcpkqc">Microsoft Store ↗</a><code id="wg-s50importa">winget install --id 9NHW31ZCPKQC -s msstore</code><button type="button" class="copy" data-target="wg-s50importa" aria-label="Copiar comando winget de S50importa">Copiar</button></div>
+</article>
+</div></section>
+<section aria-labelledby="h-productividad"><h2 id="h-productividad">Productividad</h2><div class="grid">
+<article class="card">
+<div class="head"><span class="icon"><img src="img/icons/recwerty.png" alt="" width="42" height="42" loading="lazy"></span><div><strong>RecWERTY</strong><div class="chips"><span class="chip">Windows</span></div></div></div>
+<p>Graba y documenta tutoriales y demostraciones de pantalla en Windows, con atajos e índice de funciones.</p>
+<p class="availability">Distribución bajo demanda.</p>
+<div class="btns"><a class="btn btn-primary" href="https://alfonsoautomatiza.com/recwerty">Ver producto</a><a class="btn btn-sec" href="https://alfonsoautomatiza.github.io/recwerty/">Manual</a></div>
+<div class="install"><a class="store" href="https://apps.microsoft.com/detail/9nld6gx4l1r1">Microsoft Store ↗</a><code id="wg-recwerty">winget install --id 9NLD6GX4L1R1 -s msstore</code><button type="button" class="copy" data-target="wg-recwerty" aria-label="Copiar comando winget de RecWERTY">Copiar</button></div>
+</article>
+<article class="card">
+<div class="head"><span class="icon"><img src="img/icons/backup-teamleader.png" alt="" width="42" height="42" loading="lazy"></span><div><strong>Backup Teamleader</strong><div class="chips"><span class="chip">Windows</span></div></div></div>
+<p>Copia de seguridad de los datos de Teamleader CRM en Windows, de forma programada y automática.</p>
+<p class="availability">Distribución bajo demanda.</p>
+<div class="btns"><a class="btn btn-primary" href="https://alfonsoautomatiza.com/backup-teamleader">Ver producto</a><a class="btn btn-sec" href="https://alfonsoautomatiza.github.io/backup-crm-teamleader/">Manual</a></div>
+<div class="install"><a class="store" href="https://apps.microsoft.com/detail/9pcpjc5262sq">Microsoft Store ↗</a><code id="wg-backup-teamleader">winget install --id 9PCPJC5262SQ -s msstore</code><button type="button" class="copy" data-target="wg-backup-teamleader" aria-label="Copiar comando winget de Backup Teamleader">Copiar</button></div>
+</article>
+</div></section>
+<section aria-labelledby="h-comunicaciones"><h2 id="h-comunicaciones">Comunicaciones</h2><div class="grid">
+<article class="card">
+<div class="head"><span class="icon"><img src="img/icons/centralita-teamleader.png" alt="" width="42" height="42" loading="lazy"></span><div><strong>Centralita IA Teamleader</strong><div class="chips"><span class="chip">Windows</span></div></div></div>
+<p>Integra la centralita telefónica con Teamleader Focus CRM: grabación de llamadas y análisis con IA.</p>
+<p class="availability">Distribución bajo demanda.</p>
+<div class="btns"><a class="btn btn-primary" href="https://alfonsoautomatiza.com/centralita-ia-teamleader">Ver producto</a><a class="btn btn-sec" href="https://alfonsoautomatiza.github.io/Centralita_Teamleader/">Manual</a></div>
+</article>
+<article class="card">
+<div class="head"><span class="icon"><img src="img/icons/centralita-android.png" alt="" width="42" height="42" loading="lazy"></span><div><strong>Centralita Android</strong><div class="chips"><span class="chip">Android</span><span class="chip beta">beta</span></div></div></div>
+<p>Identifica llamadas entrantes y salientes en Android con los datos del CRM.</p>
+<p class="note">Versión de prueba; puede ser más nueva que la de Google Play</p>
+<p class="availability">Distribución bajo demanda.</p>
+<div class="btns"><a class="btn btn-primary" href="https://alfonsoautomatiza.com/centralita-ia-teamleader">Ver producto</a></div>
+</article>
+</div></section>
 </main>
-
+<footer>
+  <div class="foot">
+    <p>Sage y Sage 50 son marcas registradas de The Sage Group plc. AlfonsoAutomatiza no está afiliado a Sage ni es distribuidor oficial; estas herramientas son desarrollos propios e independientes.</p>
+    <p>© 2026 Alfonso Martínez · <a href="mailto:hola@alfonsoautomatiza.com">hola@alfonsoautomatiza.com</a> · <a href="https://alfonsoautomatiza.com/">alfonsoautomatiza.com</a></p>
+  </div>
+</footer>
+<script>
+(function(){
+  document.querySelectorAll('button.copy').forEach(function(btn){
+    btn.addEventListener('click', function(){
+      var code = document.getElementById(btn.getAttribute('data-target'));
+      if(!code) return;
+      var text = code.textContent.trim();
+      var orig = btn.textContent;
+      function done(){
+        btn.classList.add('copied');
+        btn.textContent = 'Copiado \u2713';
+        setTimeout(function(){ btn.textContent = orig; btn.classList.remove('copied'); }, 1800);
+      }
+      function legacy(){
+        var ta = document.createElement('textarea');
+        ta.value = text; ta.setAttribute('readonly','');
+        ta.style.position = 'fixed'; ta.style.opacity = '0';
+        document.body.appendChild(ta); ta.select();
+        var ok = false;
+        try { ok = document.execCommand('copy'); } catch(e) {}
+        document.body.removeChild(ta);
+        if (ok) done();
+      }
+      if (navigator.clipboard && window.isSecureContext) {
+        navigator.clipboard.writeText(text).then(done, legacy);
+      } else { legacy(); }
+    });
+  });
+})();
+</script>
 </body>
 </html>
