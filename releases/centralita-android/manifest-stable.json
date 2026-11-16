@@ -3,15 +3,15 @@
   "channel": "stable",
   "releases": [
     {
-      "version": "1.0.28",
+      "version": "1.0.29",
       "type": "full",
       "target": "android",
-      "filename": "centralita-android-1.0.28-32-test.apk",
-      "sha256": "3e946b3ecca68ba212b8ad1681e2662600fc486bbb578cf2a1a44767d9b27f3d",
-      "size": 88765393,
-      "notes": "El enlace con la Centralita ya no se pierde al salir y volver a la app (también sin conexión). \"Habilitar pruebas\" arranca apagado. Configuración se separa en las pestañas General, Pareo, Ignorados y Acerca de (datos del dispositivo, versión y enlace a la ayuda). Vaciar la URL de un pareo ya no lo borra.",
-      "tag": "centralita-android-v1.0.28",
-      "url": "https://github.com/alfonsoautomatiza/alfonsoautomatiza.github.io/releases/download/centralita-android-v1.0.28/centralita-android-1.0.28-32-test.apk"
+      "filename": "centralita-android-1.0.29-33-test.apk",
+      "sha256": "3d336df381e99412e63b74f1746aa688d2fa14b6310cad0955bbaf9b031ada0a",
+      "size": 88765285,
+      "notes": "La app ya no queda corriendo en segundo plano: Android la despierta en cada llamada, consume menos batería y cumple las políticas de Google Play. El aviso a la Centralita se hace al sonar; si no llega, la llamada queda pendiente y el teléfono avisa con \"Llamadas pendientes\". Nuevo botón \"Optimización de batería\" en Configuración. Se quita el ajuste \"Iniciar al arrancar el teléfono\" (la detección funciona siempre tras reiniciar).",
+      "tag": "centralita-android-v1.0.29",
+      "url": "https://github.com/alfonsoautomatiza/alfonsoautomatiza.github.io/releases/download/centralita-android-v1.0.29/centralita-android-1.0.29-33-test.apk"
     }
   ]
 }
