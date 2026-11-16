@@ -138,12 +138,12 @@
       "winget_id": null,
       "icon": "img/icons/centralita-android.png",
       "beta": true,
-      "version": "1.0.26",
+      "version": "1.0.28",
       "build": null,
-      "url": "https://github.com/alfonsoautomatiza/alfonsoautomatiza.github.io/releases/download/centralita-android-v1.0.26/centralita-android-1.0.26-30-test.apk",
-      "filename": "centralita-android-1.0.26-30-test.apk",
-      "sha256": "3d63f51e27338f1c95e46b27972c2525b037b3b4bc1f4f596aff8a5f0c7508fb",
-      "size": 88765233,
+      "url": "https://github.com/alfonsoautomatiza/alfonsoautomatiza.github.io/releases/download/centralita-android-v1.0.28/centralita-android-1.0.28-32-test.apk",
+      "filename": "centralita-android-1.0.28-32-test.apk",
+      "sha256": "3e946b3ecca68ba212b8ad1681e2662600fc486bbb578cf2a1a44767d9b27f3d",
+      "size": 88765393,
       "published_at": null,
       "available": true
     }
